@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../images/mountains.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    /* border-bottom: 5px solid #3192a6; */
+    box-shadow: 0 5px 10px #3192a6;
+}
+.nav-link{
+    font-size: 1.3rem;
+    
+}
+#authores img {
+    margin-top: -70px;
+}
+@media(max-width: 767px){
+    #authores img {
+        margin-top: -110px;
+    }
+}
+@media(max-width: 767px){
+    #authores .card {
+        margin-bottom: 70px; 
+    }
+}
+@media(max-width: 767px) {
+    #contact img{
+        width: 200px;
+    }
+}
